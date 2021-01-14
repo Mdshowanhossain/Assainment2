@@ -1,0 +1,31 @@
+.card{
+    width: 600px;
+    max-width: 100%;
+    margin: 10px;
+    box-shadow: 1px 2px 4px;
+    box-sizing: border-box;
+}
+.img-size{
+ width: 100%;
+ background-color: lavender;
+ 
+}
+.card-body{
+ padding: 5px;
+}
+.card-title{
+ font-size: 20px;
+ font-weight: bold;
+}
+.card body .card-desc{
+ text-align: justify;
+}
+
+.card:hover{
+ box-shadow: 6px 12px 20px;
+}
+.containers{
+ box-sizing: border-box;
+ display: flex;
+ justify-content: center;
+}
